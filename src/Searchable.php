@@ -4,5 +4,5 @@ namespace Spatie\Searchable;
 
 interface Searchable
 {
-    public function getSearchResult(): SearchResult;
+    public function getSearchResult(string $query): SearchResult;
 }
